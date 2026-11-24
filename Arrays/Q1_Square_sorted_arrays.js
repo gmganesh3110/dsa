@@ -17,5 +17,5 @@ const squareSortedArrays = (arr) => {
 };
 
 console.log(squareSortedArrays([-2, 1, 2, 3, 4, 5]));
-// Time Complexity o(n);
-// Space Complexity o(n);
+// Time Complexity O(n);
+// Space Complexity O(n);
