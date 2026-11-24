@@ -3,9 +3,9 @@ const squareSortedArrays = (arr) => {
   let left = 0;
   let right = arr.length - 1;
   while (left <= right) {
-    console.log(arr[left] * arr[left], "Left");
-    console.log(arr[right] * arr[right], "Right");
-    if (arr[left] * arr[left] <= arr[right] * arr[right]) {
+    let leftSquared = arr[left] * arr[left];
+    let rightSquared = arr[right] * arr[right];
+    if (leftSquared <= rightSquared) {
       result[right] = arr[right] * arr[right];
       right--;
     } else {
